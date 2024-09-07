@@ -18,12 +18,12 @@ public class menu {
             YamahitaGabrielCano yamahitaGabrielCano = new YamahitaGabrielCano();
             yamahitaGabrielCano.ejecutar();
                 break; 
+
             case 2: 
-
                 System.out.println("Opcion 2: "); 
-
- 
-
+                YamahitaAlejoGarcia punto1AlejoGarcia = new YamahitaAlejoGarcia();
+                punto1AlejoGarcia.ejecutarAlejoGarcia();
+                
                 break; 
 
             case 3: 
