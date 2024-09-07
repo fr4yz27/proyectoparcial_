@@ -2,14 +2,8 @@ import java.util.Scanner;
 public class menu { 
 
     public static void main(String[] args) { 
-
         int menu = 0, opciones = 0; 
-
- 
-
         Scanner teclado = new Scanner(System.in); 
-
- 
 
         System.out.println("Eliga una opcion: "); 
 
@@ -20,15 +14,10 @@ public class menu {
         switch (menu) { 
 
             case 1: 
-
-                System.out.println("Opcion 1: "); 
-
- 
-
+            System.out.println("Opcion 1: "); 
+            YamahitaGabrielCano yamahitaGabrielCano = new YamahitaGabrielCano();
+            yamahitaGabrielCano.ejecutar();
                 break; 
-
- 
-
             case 2: 
 
                 System.out.println("Opcion 2: "); 
